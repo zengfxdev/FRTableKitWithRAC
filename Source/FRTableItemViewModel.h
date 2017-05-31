@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FRTableViewModelProtocol.h"
+#import "FRTableItemViewModelProtocol.h"
 
-@interface FRTableItemViewModel : NSObject<FRTableViewModelProtocol>
+@interface FRTableItemViewModel : NSObject<FRTableItemViewModelProtocol>
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

@@ -18,6 +18,7 @@
 		D0908A691EDE7771003D6805 /* FRTableHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0908A681EDE7771003D6805 /* FRTableHeaderViewModel.m */; };
 		D0908A6C1EDE97D4003D6805 /* FRTableFooterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0908A6B1EDE97D4003D6805 /* FRTableFooterViewModel.m */; };
 		D0908A6F1EDE98A9003D6805 /* FRTableCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0908A6E1EDE98A9003D6805 /* FRTableCellViewModel.m */; };
+		D0908A731EDEA325003D6805 /* FRTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0908A721EDEA325003D6805 /* FRTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +35,7 @@
 		D0908A571EDE6E2E003D6805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0908A5A1EDE6E2E003D6805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0908A5C1EDE6E2E003D6805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0908A631EDE74ED003D6805 /* FRTableViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableViewModelProtocol.h; sourceTree = "<group>"; };
+		D0908A631EDE74ED003D6805 /* FRTableItemViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableItemViewModelProtocol.h; sourceTree = "<group>"; };
 		D0908A641EDE756C003D6805 /* FRTableItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableItemViewModel.h; sourceTree = "<group>"; };
 		D0908A651EDE756C003D6805 /* FRTableItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTableItemViewModel.m; sourceTree = "<group>"; };
 		D0908A671EDE7771003D6805 /* FRTableHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableHeaderViewModel.h; sourceTree = "<group>"; };
@@ -43,6 +44,11 @@
 		D0908A6B1EDE97D4003D6805 /* FRTableFooterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTableFooterViewModel.m; sourceTree = "<group>"; };
 		D0908A6D1EDE98A9003D6805 /* FRTableCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableCellViewModel.h; sourceTree = "<group>"; };
 		D0908A6E1EDE98A9003D6805 /* FRTableCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTableCellViewModel.m; sourceTree = "<group>"; };
+		D0908A701EDEA2F7003D6805 /* FRTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableViewProtocol.h; sourceTree = "<group>"; };
+		D0908A711EDEA325003D6805 /* FRTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableView.h; sourceTree = "<group>"; };
+		D0908A721EDEA325003D6805 /* FRTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTableView.m; sourceTree = "<group>"; };
+		D0908A741EDEA49D003D6805 /* FRTableViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableViewModelProtocol.h; sourceTree = "<group>"; };
+		D0908A751EDEA74C003D6805 /* FRTableSectionViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableSectionViewModelProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +126,7 @@
 		D0908A621EDE73A7003D6805 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D0908A631EDE74ED003D6805 /* FRTableViewModelProtocol.h */,
+				D0908A631EDE74ED003D6805 /* FRTableItemViewModelProtocol.h */,
 				D0908A641EDE756C003D6805 /* FRTableItemViewModel.h */,
 				D0908A651EDE756C003D6805 /* FRTableItemViewModel.m */,
 				D0908A671EDE7771003D6805 /* FRTableHeaderViewModel.h */,
@@ -129,6 +135,11 @@
 				D0908A6B1EDE97D4003D6805 /* FRTableFooterViewModel.m */,
 				D0908A6D1EDE98A9003D6805 /* FRTableCellViewModel.h */,
 				D0908A6E1EDE98A9003D6805 /* FRTableCellViewModel.m */,
+				D0908A701EDEA2F7003D6805 /* FRTableViewProtocol.h */,
+				D0908A711EDEA325003D6805 /* FRTableView.h */,
+				D0908A721EDEA325003D6805 /* FRTableView.m */,
+				D0908A741EDEA49D003D6805 /* FRTableViewModelProtocol.h */,
+				D0908A751EDEA74C003D6805 /* FRTableSectionViewModelProtocol.h */,
 			);
 			name = Source;
 			path = ../Source;
@@ -260,6 +271,7 @@
 				D0908A6C1EDE97D4003D6805 /* FRTableFooterViewModel.m in Sources */,
 				D0908A6F1EDE98A9003D6805 /* FRTableCellViewModel.m in Sources */,
 				D0908A691EDE7771003D6805 /* FRTableHeaderViewModel.m in Sources */,
+				D0908A731EDEA325003D6805 /* FRTableView.m in Sources */,
 				D0908A661EDE756C003D6805 /* FRTableItemViewModel.m in Sources */,
 				D0908A531EDE6E2D003D6805 /* ViewController.m in Sources */,
 				D0908A501EDE6E2D003D6805 /* AppDelegate.m in Sources */,
