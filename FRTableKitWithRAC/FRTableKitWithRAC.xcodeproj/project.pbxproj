@@ -25,6 +25,7 @@
 		6EC5C943026434A2B1015635 /* Pods_FRTableKitWithRAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRTableKitWithRAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B922B599C50F71FF0B06E8A1 /* Pods-FRTableKitWithRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRTableKitWithRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRTableKitWithRAC/Pods-FRTableKitWithRAC.release.xcconfig"; sourceTree = "<group>"; };
 		C55E4047E11E6AAE106E71C3 /* Pods-FRTableKitWithRAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRTableKitWithRAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRTableKitWithRAC/Pods-FRTableKitWithRAC.debug.xcconfig"; sourceTree = "<group>"; };
+		D04854D51EDEAB0700909989 /* FRTableItemViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableItemViewModelProtocol.h; sourceTree = "<group>"; };
 		D0908A481EDE6E2D003D6805 /* FRTableKitWithRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRTableKitWithRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0908A4C1EDE6E2D003D6805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0908A4E1EDE6E2D003D6805 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		D0908A571EDE6E2E003D6805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0908A5A1EDE6E2E003D6805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0908A5C1EDE6E2E003D6805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0908A631EDE74ED003D6805 /* FRTableItemViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableItemViewModelProtocol.h; sourceTree = "<group>"; };
 		D0908A641EDE756C003D6805 /* FRTableItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableItemViewModel.h; sourceTree = "<group>"; };
 		D0908A651EDE756C003D6805 /* FRTableItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTableItemViewModel.m; sourceTree = "<group>"; };
 		D0908A671EDE7771003D6805 /* FRTableHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTableHeaderViewModel.h; sourceTree = "<group>"; };
@@ -126,7 +126,6 @@
 		D0908A621EDE73A7003D6805 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D0908A631EDE74ED003D6805 /* FRTableItemViewModelProtocol.h */,
 				D0908A641EDE756C003D6805 /* FRTableItemViewModel.h */,
 				D0908A651EDE756C003D6805 /* FRTableItemViewModel.m */,
 				D0908A671EDE7771003D6805 /* FRTableHeaderViewModel.h */,
@@ -140,6 +139,7 @@
 				D0908A721EDEA325003D6805 /* FRTableView.m */,
 				D0908A741EDEA49D003D6805 /* FRTableViewModelProtocol.h */,
 				D0908A751EDEA74C003D6805 /* FRTableSectionViewModelProtocol.h */,
+				D04854D51EDEAB0700909989 /* FRTableItemViewModelProtocol.h */,
 			);
 			name = Source;
 			path = ../Source;

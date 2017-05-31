@@ -1,5 +1,5 @@
 //
-//  FRTableViewModelProtocol.h
+//  FRTableItemViewModelProtocol.h
 //  FRTableKitWithRAC
 //
 //  Created by 曾凡旭 on 2017/5/31.
@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "FRTableViewModelProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -31,5 +30,4 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat height;
 
 @end
-
 NS_ASSUME_NONNULL_END
