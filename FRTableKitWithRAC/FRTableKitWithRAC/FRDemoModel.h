@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FRModel.h"
 
-@interface FRDemoModel : NSObject
+@interface FRDemoModel : FRModel
+
+@property (nonatomic,strong) NSString *title;
+@property (nonatomic,strong) NSString *desc;
 
 @end
